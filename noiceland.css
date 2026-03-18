@@ -1,9 +1,11 @@
+/* header */
+
 ul {
 	margin: 0px;
 	padding: 0px;
 }
 
-.header {
+header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -27,7 +29,220 @@ ul {
 }
 
 .header-menu li a {
-	color: black;
-	text-decoration: none;
 	font-size: 14px;
+}
+
+
+/* фигня по центру с фоткой*/
+
+
+.frame{
+	display:flex;
+	flex-direction:row;
+	height:472px;
+	align-items: flex-start;
+	padding: 0px 120px;
+	margin: 120px 0px;
+}
+
+.bigimg{
+	height:474px;
+	width:721px;
+}
+
+.block{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height:342px;
+	width:480px;
+	margin: 20px 20px;
+
+}
+
+.label{
+	font-family:"Libre Franklin", sans-serif;
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+	letter-spacing:1px;
+	color:#999999;
+}
+
+.text{
+	font-family:"Source Serif 4", sans-serif;
+	font-size:16px;
+	line-height:24px;
+	color:#666666;
+}
+
+.signature{
+	font-family:"Libre Franklin", sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+	letter-spacing:1px;
+}
+
+.caption{
+	font-family: "Tenor Sans", sans-serif;
+	text-transform:uppercase;
+	font-size:36px;
+	line-height:42px;
+}
+
+
+/* основная фигня */
+
+.container{
+	max-width:100%;
+	justify-content:center;
+}
+
+
+.topics{
+	width: 100%;
+	padding: 0px 120px;
+	margin: 120px 0px;
+}
+
+
+.topic{
+	height:481px;
+	width:406px;
+}
+
+.imgsmall{
+	height:254px;
+	width:387px;
+}
+
+
+/* for .caption */
+.caption.small{
+	font-size:20px;
+	line-height:24px;
+}
+
+.caption.smaller{
+	font-size:19px;
+	line-height:24px;
+}
+
+/* for block */
+.block.small{
+	height:481px;
+	width:406px;
+}
+
+.block.smaller{
+    height:158px;
+	width:285px;
+}
+
+.block.wider{
+    height:86px;
+	width:590px;
+}
+
+/* основная фигня 2.0 */
+
+.post{
+    width:305px;
+    height:389px;
+}
+
+.imgsmaller{
+    height:187px;
+	width:285px;
+}
+
+.auto-size{
+    width:1200px;
+    height:60px;
+}
+
+
+.go{
+    width:205px;
+    height:54px;
+    margin:auto;
+    background-color:white;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* основная фигня 3.0 */
+
+.imgmedium{
+    height:387px;
+	width:590px;
+}
+
+.f-post{
+    width:610px;
+    height:567px;
+}
+
+hr{
+    margin: 0px 120px;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+	flex-direction: column;
+	height: 617px;
+	align-items: space-between;
+	background-color:#141414;
+	justify-content:space-around;
+	padding: 90px 120px;
+}
+
+#logo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+#logo-img{
+    width:150px;
+    height:17px;
+}
+
+
+#logo > div.col {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.email-input {
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  width:221px;
+  height: 48px;
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  width: 79px;
+  height: 48px;
+}
+
+p{
+    margin-bottom:0px;
 }
