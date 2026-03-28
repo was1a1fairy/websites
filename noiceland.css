@@ -133,18 +133,21 @@ header {
 
 /* for block */
 .block.small{
-	height:481px;
-	width:406px;
+	height:134px;
+	width:386px;
+	margin: 20px 0px;
 }
 
 .block.smaller{
     height:158px;
 	width:285px;
+	margin: 20px 0px;
 }
 
 .block.wider{
     height:86px;
 	width:590px;
+	margin: 20px 0px;
 }
 
 /* основная фигня 2.0 */
@@ -175,6 +178,7 @@ header {
 a{
     text-decoration: none;
     color:black;
+    cursor: pointer;
 }
 
 /* основная фигня 3.0 */
@@ -215,9 +219,10 @@ hr{
 }
 
 #logo-img{
-    width:150px;
+    width:135px;
     height:17px;
 }
+
 
 
 #logo > div.col {
@@ -232,17 +237,52 @@ hr{
   background-color: white;
   color: grey;
   border: 1px solid grey;
+  /* padding: 10px 15px; */
+  margin-right: -2px;
   width:221px;
   height: 48px;
+  margin-top:15px;
 }
 
 .submit-button {
+  all:unset;
   background-color: black;
   color: white;
+  border: 1px solid #000000;
+  margin-left: -2px;
   width: 79px;
-  height: 48px;
+  height: 42px;
+  margin-top:15px;
+  border-bottom:7px solid black;
 }
 
 p{
     margin-bottom:0px;
+}
+
+.footer-link{
+    color:white;
+    font-family:"Libre Franklin", sans-serif;
+    font-size:14px;
+    margin-top:15px;
+    margin-left:1px;
+}
+
+.space-before{
+    margin-top:40px;
+}
+
+.btn_text{
+    font-family:"Libre Franklin", sans-serif;
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+	letter-spacing:1px;
+	color:white;
+	margin-left:15px;
+}
+
+.page{
+    max-width: 1500px;
+    margin: 0 auto;
 }
